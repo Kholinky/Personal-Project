@@ -6,11 +6,11 @@ import os
 
 client = OpenAI(
     base_url = "https://openrouter.ai/api/v1",    
-    api_key = "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",
+    api_key = "API_KEY",
 )
 
 
-tele_key = "8088929007:AAG6zbeMI8_8Jzx71-GijFwP5vnvj6SCiTY"
+tele_key = "TELEGRAM_KEY"
 bot = TeleBot(tele_key)
 
 
